@@ -166,6 +166,18 @@ header {
 /* first section */
 
 .section-main {
+  height: 600px;
+  max-width: 1400px;
+  background-image: linear-gradient(
+      to right,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office\ 1.jpg);
+  background-size: cover;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-position: center;
   background-color: var(--color-text);
   text-align: center;
   padding-top: 188px;
