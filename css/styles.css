@@ -235,7 +235,8 @@ header {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  flex-basis: calc((100% - 72px) / 4);
+  /* flex-basis: calc((100% - 72px) / 4); */
+  flex-basis: calc((100% - 104px) / 4);
 }
 
 .qualities-item .qualities-title {
@@ -257,6 +258,13 @@ header {
   max-width: 264px;
   letter-spacing: 0.02em;
   color: var(--color-body);
+}
+
+.qualities-icon {
+  height: 112px;
+  width: 264px;
+  background-color: #f4f4fd;
+  padding: 24px 0;
 }
 
 /* third section */
